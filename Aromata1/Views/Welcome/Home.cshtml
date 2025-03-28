@@ -1,0 +1,16 @@
+﻿<h1>Name: @Model.name</h1>
+<h1>age: 
+	@if (Model.age>30){
+		<p>you are under age</p>
+	}
+	else{
+		@Model.age
+	}
+	
+</h1>
+@for (int i = 0; i < 5; i++)
+{
+	<h1>salary: @Model.salary</h1>
+})
+
+
